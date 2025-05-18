@@ -18,8 +18,9 @@ Tu misión: llegar a la base antes de que los enemigos te capturen o se acabe el
 
 ⚙️ Controles
 Acción	Control
-Mover al jugador	Clic izquierdo del mouse
-Seleccionar dificultad	Desde el menú inicial
-Ingresar nombre	Desde la pantalla inicial
-Reiniciar juego	Botón en pantalla de Game Over
-Volver al menú	Botón en pantalla de Game Over
+Mover al jugador: Clic izquierdo del mouse, Seleccionar dificultad: Desde el menú inicial, Ingresar nombre: Desde la pantalla inicial, Reiniciar juego: Botón en pantalla de Game Over, Volver al menú:	Botón en pantalla de Game Over.
+
+🕹️ Integrantes:
+- Eduardo Melgarejo A.
+- Nicolas San Martin M.
+- Mathias Muñoz C.
