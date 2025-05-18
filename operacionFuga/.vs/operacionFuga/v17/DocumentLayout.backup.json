@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|c:\\users\\matia\\desktop\\ev2_desarrolloviedeojuegos\\operacionfuga\\assets\\scripts\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|c:\\users\\matia\\desktop\\ev2_desarrolloviedeojuegos\\operacionfuga\\assets\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\cambioescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cambioescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\cambioescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cambioescena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\consultar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\controladoraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controladoraudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\assets\\scripts\\metafinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7639D48-92A0-C47F-E628-AA095C08C871}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\metafinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +38,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:12:51.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "controladorAudio.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\controladorAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\controladorAudio.cs",
+              "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\controladorAudio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\controladorAudio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:12:39.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "consultar.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\consultar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\consultar.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\consultar.cs",
               "RelativeToolTip": "Assets\\Scripts\\consultar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T05:37:49.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T16:44:18.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Data.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\Data.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\Data.cs",
               "RelativeToolTip": "Assets\\Scripts\\Data.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T03:02:39.955Z"
+              "WhenOpened": "2025-05-17T16:34:59.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "EnemyFollow.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\EnemyFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyFollow.cs",
+              "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\EnemyFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyFollow.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAwwI0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:14:25.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "metaFinal.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\metaFinal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\metaFinal.cs",
+              "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\metaFinal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\metaFinal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:50:44.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "cambioEscena.cs",
               "DocumentMoniker": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\cambioEscena.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cambioEscena.cs",
               "ToolTip": "C:\\Users\\matia\\Desktop\\Ev2_DesarrolloViedeojuegos\\operacionFuga\\Assets\\Scripts\\cambioEscena.cs",
               "RelativeToolTip": "Assets\\Scripts\\cambioEscena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T02:53:20.683Z"
             }

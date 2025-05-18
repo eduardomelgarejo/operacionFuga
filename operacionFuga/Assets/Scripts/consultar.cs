@@ -9,8 +9,15 @@ public class consultar : MonoBehaviour
     {
         data = FindObjectOfType<Data>();
 
+        string nombreGuardado = PlayerPrefs.GetString("val_nombre", "").Trim();
+        if (string.IsNullOrEmpty(nombreGuardado))
+        {
+            nombreGuardado = "Player";
+            PlayerPrefs.SetString("val_nombre", nombreGuardado);
+        }
+
         Debug.Log(PlayerPrefs.GetString("val_nombre"));
-        Debug.Log(PlayerPrefs.GetString("val_dificultad"));
+        Debug.Log(PlayerPrefs.GetString("val_dificultad", "Facil"));
         Debug.Log(PlayerPrefs.GetFloat("val_volumen"));
     }
 }

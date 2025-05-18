@@ -10,12 +10,16 @@ public class metaFinal : MonoBehaviour
     public TMP_Text textoTiempo;
     private float tiempoInicio;
 
+
+    private controladorAudio audioControlador;
+
     void Start()
     {
         tiempoInicio = Time.time;
-        panelVictoria.SetActive(false); // Oculta el panel al inicio
+        panelVictoria.SetActive(false);
+        audioControlador = GameObject.Find("Controlador").GetComponent<controladorAudio>();
     }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -23,11 +27,14 @@ public class metaFinal : MonoBehaviour
             float tiempoFinal = Time.time - tiempoInicio;
 
             string nombre = PlayerPrefs.GetString("val_nombre", "Jugador");
-            textoNombre.text = "Nombre: " + nombre;
+            textoNombre.text = "Jugador: " + nombre;
             textoTiempo.text = "Tiempo: " + tiempoFinal.ToString("F2") + "s";
 
             panelVictoria.SetActive(true);
-            Time.timeScale = 0f; // Pausa el juego
+            Time.timeScale = 0f;
+
+            // Reproducir música de victoria
+            audioControlador.loadClip(2);
         }
     }
 }

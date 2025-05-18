@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class PlayerMovement : MonoBehaviour
 {
-
     public Transform objetivo; // Referencia al objetivo (para el movimiento del jugador)
     public NavMeshAgent agente; // Componente que maneja el movimiento del jugador
 

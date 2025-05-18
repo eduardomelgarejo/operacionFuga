@@ -5,19 +5,16 @@ using UnityEngine.UI;
 
 public class Data : MonoBehaviour
 {
-    public TMPro.TMP_InputField input;    
+    public TMPro.TMP_InputField input;
     public TMPro.TMP_Dropdown dropdown;
     public Slider slider;
     public AudioSource audioSource;
 
+  
+
     private void Start()
     {
-        setAudioInicial();
-    }
-
-    private void Awake()
-    {
-       
+        RestaurarPreferencias();
     }
 
     public void getinput()
@@ -30,11 +27,51 @@ public class Data : MonoBehaviour
     public void getDropDown()
     {
         int index = dropdown.value;
-        TMPro.TMP_Dropdown.OptionData seleccion = dropdown.options[index];
-        string select = seleccion.text;
+        string select = dropdown.options[index].text;
         Debug.Log("Dificultad escogida: " + select);
-        
         PlayerPrefs.SetString("val_dificultad", select);
+    }
+
+    public void setAudio()
+    {
+        float volumen = slider.value;
+        audioSource.volume = volumen;
+        PlayerPrefs.SetFloat("val_volumen", volumen);
+    }
+
+    public void RestaurarPreferencias()
+    {
+        // Nombre
+        if (PlayerPrefs.HasKey("val_nombre"))
+        {
+            input.text = PlayerPrefs.GetString("val_nombre");
+        }
+
+        // Dificultad
+        if (PlayerPrefs.HasKey("val_dificultad"))
+        {
+            string dificultad = PlayerPrefs.GetString("val_dificultad");
+            for (int i = 0; i < dropdown.options.Count; i++)
+            {
+                if (dropdown.options[i].text == dificultad)
+                {
+                    dropdown.value = i;
+                    break;
+                }
+            }
+        }
+
+        // Volumen
+        if (PlayerPrefs.HasKey("val_volumen"))
+        {
+            float volumen = PlayerPrefs.GetFloat("val_volumen");
+            slider.value = volumen;
+            audioSource.volume = volumen;
+        }
+        else
+        {
+            setAudioInicial(); 
+        }
     }
 
     public void setAudioInicial()
@@ -42,13 +79,6 @@ public class Data : MonoBehaviour
         float volumen = 0.3f;
         slider.value = volumen;
         audioSource.volume = volumen;
-    }
-    public void setAudio()
-    {
-        float volumen;
-        volumen = slider.value;
-        audioSource.volume = volumen;
-
         PlayerPrefs.SetFloat("val_volumen", volumen);
     }
 }

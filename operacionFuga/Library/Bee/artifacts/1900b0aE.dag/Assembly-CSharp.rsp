@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/cambioEscena.cs"
 "Assets/Scripts/consultar.cs"
+"Assets/Scripts/controladorAudio.cs"
 "Assets/Scripts/Data.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/metaFinal.cs"
